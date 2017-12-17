@@ -1,0 +1,4 @@
+The Idea is:
+1-crawling manga web by 'requests.get(url)', and getting html web by 'html.fromstring(page.text)'
+2-Taking info i need(name-chap-date_publish) by using xpath('<finf info in html>')
+3-camparing the Publish-Date with current day, if Publish-Date == current day, it is announce
